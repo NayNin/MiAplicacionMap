@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    tools:context="com.example.nayra.miaplimap.MainActivity">
+
+    <TextView
+        android:text="@string/latitud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/LatitudTextView"
+        android:text="@string/latitud"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        tools:text="aqui va la latitud"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:text="@string/longitud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/LongitudTexView"
+        android:text="@string/longitud"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        tools:text="aqui va la longitud"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>
+
+
